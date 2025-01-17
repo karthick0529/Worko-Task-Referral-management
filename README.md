@@ -91,8 +91,6 @@
 
 # Live Demo
 
-## URLs:
-
   Backend: https://worko-task-referral-management.onrender.com
   
   Frontend: https://dazzling-daffodil-78755a.netlify.app/
