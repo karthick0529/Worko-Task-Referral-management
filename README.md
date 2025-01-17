@@ -93,7 +93,7 @@ No role-based access control (e.g., admin vs. standard user permissions).
 
   Backend: https://worko-task-referral-management.onrender.com
         
-  Frontend: https://dazzling-daffodil-78755a.netlify.app/
+  Frontend: https://chimerical-crepe-9d3fd1.netlify.app/
 
 ## Sample Credentials:
 
