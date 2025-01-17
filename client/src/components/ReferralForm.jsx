@@ -47,7 +47,7 @@ const ReferralForm = () => {
 
     try {
       const token = localStorage.getItem("token");
-      await axios.post("http://localhost:5000/candidates", formDataObj, {
+      await axios.post("https://worko-task-referral-management.onrender.com/candidates", formDataObj, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",

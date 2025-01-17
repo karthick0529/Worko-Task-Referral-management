@@ -192,6 +192,7 @@ button:hover {
 
 .dashboard-actions-container {
   display: flex;
+  flex-direction: column; /* Default to column layout for smaller screens */
   align-items: center;
   justify-content: space-between;
   gap: 10px;
@@ -212,13 +213,15 @@ button:hover {
     background-color: #0056b3;
   }
    */
-.search-bar input {
-  width: 550px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
+   .search-bar input {
+    width: 100%; /* Full width by default */
+    max-width: 550px; /* Limit the maximum width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
 
 .dashboard-container {
   margin: 20px auto;
@@ -230,19 +233,17 @@ button:hover {
   border-radius: 8px;
 }
 
-/* .search-bar {
-    margin-bottom: 20px;
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .dashboard-actions-container {
+    flex-direction: column; 
+    gap: 20px; 
   }
-  
-  .search-bar input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+
+  .dashboard-actions button {
+    width: 100%; 
   }
-   */
+}
 
 .candidate-list {
   display: flex;

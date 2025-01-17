@@ -11,7 +11,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/auth/register", {
+      await axios.post("https://worko-task-referral-management.onrender.com/auth/register", {
         name,
         email,
         password,

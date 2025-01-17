@@ -14,7 +14,7 @@ const Dashboard = () => {
     const fetchCandidates = async () => {
       try {
         const token = localStorage.getItem("token");
-        const { data } = await axios.get("http://localhost:5000/candidates", {
+        const { data } = await axios.get("https://worko-task-referral-management.onrender.com/candidates", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setCandidates(data);

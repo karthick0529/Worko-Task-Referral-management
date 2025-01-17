@@ -10,7 +10,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:5000/auth/login", {
+      const { data } = await axios.post("https://worko-task-referral-management.onrender.com/auth/login", {
         email,
         password,
       });

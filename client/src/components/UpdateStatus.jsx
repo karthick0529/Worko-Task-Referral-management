@@ -10,7 +10,7 @@ const UpdateStatus = ({ candidateId, currentStatus, onStatusUpdate }) => {
 
     try {
       await axios.put(
-        `http://localhost:5000/candidates/${candidateId}/status`,
+        `https://worko-task-referral-management.onrender.com/candidates/${candidateId}/status`,
         {
           status: newStatus,
         }
