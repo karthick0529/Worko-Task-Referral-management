@@ -42,13 +42,13 @@ const Header = () => {
               <button onClick={() => handleNavigation("/login")}>Login</button>
             </li>
           )}
-          {!isLoggedIn && (
+          {/* {!isLoggedIn && (
             <li>
               <button onClick={() => handleNavigation("/register")}>
                 Register
               </button>
             </li>
-          )}
+          )} */}
           {isLoggedIn && (
             <li>
               <button onClick={handleLogout} className="logout-link">
@@ -103,7 +103,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        {/* <Route path="/register" element={<Register />} /> */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/refer" element={<ReferralForm />} />
       </Routes>
