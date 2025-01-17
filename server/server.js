@@ -13,10 +13,10 @@ dotenv.config();
 
 app.use("/auth", authRoutes);
 
-mongoose.connect("mongodb://localhost:27017/referralDB");
+mongoose.connect(process.env.MONGO_URI);
 
 const upload = multer({
-  dest: "uploads/",
+  dest: process.env.UPLOADS_PATH || "uploads/",
   fileFilter: (req, file, cb) => {
     if (file.mimetype === "application/pdf") cb(null, true);
     else cb(new Error("Only .pdf files are allowed!"));
@@ -66,5 +66,5 @@ app.put("/candidates/:id/status", async (req, res) => {
   }
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

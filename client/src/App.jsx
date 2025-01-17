@@ -66,37 +66,32 @@ const Home = () => {
   return (
     <div className="home-container">
       <h1>Welcome to the Candidate Referral Management System</h1>
-      <p>
+      <h4>
         Our platform simplifies the process of referring candidates, tracking
         their progress, and managing their status all in one place. Whether
         you're a recruiter, hiring manager, or just referring someone, it's
         designed to streamline the referral process.
-      </p>
+      </h4>
 
       <p>
         <strong>Key Features:</strong>
-        <ul>
-          <li>
-            Easily refer candidates with their details (name, email, job title,
-            resume).
-          </li>
-          <li>
-            Track the status of referred candidates (Pending, Reviewed, Hired).
-          </li>
-          <li>Search and filter candidates by job title or status.</li>
-          <li>Get real-time updates on candidate status changes.</li>
-        </ul>
       </p>
+      <ul>
+        <li>Easily refer candidates with their details (name, email, job title, resume).</li>
+        <li>Track the status of referred candidates (Pending, Reviewed, Hired).</li>
+        <li>Search and filter candidates by job title or status.</li>
+        <li>Get real-time updates on candidate status changes.</li>
+      </ul>
 
-      <p>
+      <h5>
         To get started, simply log in or register. Once logged in, you can refer
         candidates, track their progress, or manage their status.
-      </p>
+      </h5>
 
-      <p>
+      <h5>
         We take data privacy seriously. Your referred candidates' information is
         securely stored and accessible only by authorized users.
-      </p>
+      </h5>
     </div>
   );
 };
