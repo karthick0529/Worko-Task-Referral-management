@@ -38,9 +38,9 @@
 
 ### Prerequisites:
 
-    Ensure Node.js and npm (or yarn) are installed on your system.
+Ensure Node.js and npm (or yarn) are installed on your system.
   
-    Install a code editor like Visual Studio Code.
+Install a code editor like Visual Studio Code.
 
 ### Instructions:
 
@@ -55,39 +55,39 @@
 
 ### Set Up Backend:
 
-        Ensure the backend API is running (if using a separate service).
+Ensure the backend API is running (if using a separate service).
         
-        If backend code is included, navigate to the backend directory and follow its setup instructions.
+If backend code is included, navigate to the backend directory and follow its setup instructions.
         
-        Update the API URL in the frontend (e.g., axios calls) to match your local backend URL.
+Update the API URL in the frontend (e.g., axios calls) to match your local backend URL.
 
   Start the Project:
 
     npm run dev
 
-        This starts the project on a local development server, typically accessible at http://localhost:5173.
+This starts the project on a local development server, typically accessible at http://localhost:5173.
 
 ## Access the Application:
 
-        Open your browser and navigate to the URL shown in the terminal (http://localhost:5173).
+Open your browser and navigate to the URL shown in the terminal (http://localhost:5173).
 
 ## Assumptions or Limitations
 
 ### Assumptions:
 
-        Users are authenticated using a token stored in localStorage.
+Users are authenticated using a token stored in localStorage.
         
-        The backend API is running and accessible at the specified URL.
+The backend API is running and accessible at the specified URL.
         
-        Each candidate has a unique identifier (_id) for status updates.
+Each candidate has a unique identifier (_id) for status updates.
 
 ### Limitations:
 
-        No server-side validation for user input (relies on backend for validation).
+No server-side validation for user input (relies on backend for validation).
         
-        Limited scalability for large datasets due to client-side search and filtering.
+Limited scalability for large datasets due to client-side search and filtering.
         
-        No role-based access control (e.g., admin vs. standard user permissions).
+No role-based access control (e.g., admin vs. standard user permissions).
 
 # Live Demo
 
