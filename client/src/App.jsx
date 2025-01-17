@@ -6,7 +6,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import Login from "./components/Login";
-import Register from "./components/Register";
+// import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
 import ReferralForm from "./components/ReferralForm";
 import "./App.css";
