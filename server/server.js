@@ -12,7 +12,7 @@ dotenv.config();
 
 // Configure CORS
 const corsOptions = {
-  origin: "https://dazzling-daffodil-78755a.netlify.app", // Frontend origin
+  origin: "https://chimerical-crepe-9d3fd1.netlify.app/", // Frontend origin
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true,
