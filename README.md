@@ -1,6 +1,6 @@
 # Candidate Referral Management System
 
-### Features Implemented
+## Features Implemented
 
 1. User Authentication:
 
@@ -34,7 +34,7 @@
 
   Fully responsive UI ensuring usability on desktops, tablets, and mobile devices using CSS media queries.
 
-### Steps to Run the Project Locally
+## Steps to Run the Project Locally
 
 ### Prerequisites:
 
@@ -44,12 +44,12 @@
 
 ### Instructions:
 
-    Clone the Repository:
+  Clone the Repository:
     
     git clone <repository-url>
     cd <repository-folder>
     
-    Install Dependencies:
+  Install Dependencies:
     
     npm install
 
@@ -61,17 +61,17 @@
   
   Update the API URL in the frontend (e.g., axios calls) to match your local backend URL.
 
-Start the Project:
+  Start the Project:
 
     npm run dev
 
   This starts the project on a local development server, typically accessible at http://localhost:5173.
 
-### Access the Application:
+## Access the Application:
 
-Open your browser and navigate to the URL shown in the terminal (http://localhost:5173).
+  Open your browser and navigate to the URL shown in the terminal (http://localhost:5173).
 
-Assumptions or Limitations
+## Assumptions or Limitations
 
 ### Assumptions:
 
@@ -89,15 +89,15 @@ Assumptions or Limitations
   
   No role-based access control (e.g., admin vs. standard user permissions).
 
-### Live Demo
+# Live Demo
 
-URLs:
+## URLs:
 
   Backend: https://worko-task-referral-management.onrender.com
   
   Frontend: https://dazzling-daffodil-78755a.netlify.app/
 
-### Sample Credentials:
+## Sample Credentials:
 
   Email: karthi@guvi.com
   
