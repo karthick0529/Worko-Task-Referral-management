@@ -1,4 +1,4 @@
-### Candidate Referral Management System
+# Candidate Referral Management System
 
 ### Features Implemented
 
