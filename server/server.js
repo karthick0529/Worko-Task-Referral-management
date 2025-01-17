@@ -8,9 +8,19 @@ const Candidate = require("./models/Candidate");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
 dotenv.config();
 
+// Configure CORS
+const corsOptions = {
+  origin: "https://dazzling-daffodil-78755a.netlify.app", // Frontend origin
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allowed methods
+  allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
+  credentials: true,
+};
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions)); // Preflight requests
+
+// Routes
 app.use("/auth", authRoutes);
 
 mongoose.connect(process.env.MONGO_URI);
@@ -23,7 +33,6 @@ const upload = multer({
   },
 });
 
-// Routes
 app.post("/candidates", upload.single("resume"), async (req, res) => {
   try {
     const { name, email, phone, jobTitle } = req.body;
