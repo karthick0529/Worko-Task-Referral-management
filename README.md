@@ -4,35 +4,35 @@
 
 1. User Authentication:
 
-  Secure user registration and login.
-    
-  Token-based authentication using localStorage for session management.
-    
-  Logout functionality for clearing user data.
+      Secure user registration and login.
+        
+      Token-based authentication using localStorage for session management.
+        
+      Logout functionality for clearing user data.
 
 2. Candidate Referral Management:
 
-  Refer a Candidate: Form to submit candidate details such as name, email, job title, and resume.
-    
-  Dashboard: Displays a list of referred candidates, searchable and filterable by job title or status.
-    
-  Candidate Status Updates: Allows updating the status of candidates (e.g., Pending, Reviewed, Hired).
+      Refer a Candidate: Form to submit candidate details such as name, email, job title, and resume.
+        
+      Dashboard: Displays a list of referred candidates, searchable and filterable by job title or status.
+        
+      Candidate Status Updates: Allows updating the status of candidates (e.g., Pending, Reviewed, Hired).
 
 3. Search Functionality:
 
-  Dynamic filtering of candidates based on job title or status.
-    
-  Real-time updates as users type in the search bar.
+      Dynamic filtering of candidates based on job title or status.
+        
+      Real-time updates as users type in the search bar.
 
 4. Statistics Overview:
 
-  Displays total candidates referred.
-    
-  Shows a breakdown of candidates by status (e.g., Pending, Reviewed, Hired).
+      Displays total candidates referred.
+        
+      Shows a breakdown of candidates by status (e.g., Pending, Reviewed, Hired).
 
 5. Responsive Design:
 
-  Fully responsive UI ensuring usability on desktops, tablets, and mobile devices using CSS media queries.
+      Fully responsive UI ensuring usability on desktops, tablets, and mobile devices using CSS media queries.
 
 ## Steps to Run the Project Locally
 
